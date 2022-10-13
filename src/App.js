@@ -5,10 +5,14 @@ import { useState } from "react";
 function App() {
   const [text, setText] = useState("");
 
+  const input = (e) => {
+    setText(e.target.value);
+  };
+
   return (
     <div className="App">
-      <textarea id="editor"></textarea>
-      <div id="preview"></div>
+      <textarea id="editor" onChange={input} value={text}></textarea>
+      <div id="preview">{text}</div>
     </div>
   );
 }
