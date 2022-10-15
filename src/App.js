@@ -7,7 +7,12 @@ import Jair from "./img/Jair.svg";
 function App() {
   const [text, setText] = useState(`# MARKDOWN PREVIEWER
   ## Welcome to my markdown
-  [visit my portfolio](https://jairmontenegro.github.io/personal-portfolio-/)
+
+  ### how to write in markdown? click below.
+  [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+--- 
+  ![jair dev](${Jair})
+  [My portfolio](https://jairmontenegro.github.io/personal-portfolio-/)
   
   ---
   \`npx-create-react-app .\`
@@ -25,11 +30,13 @@ function App() {
 > Jair Montenegro Florez
 ----
 **conquering  FreeCodeCamp front end libraries certification** 
+
+**Developed by Jair Montenegro** 
 ![jair dev](${Jair})
-
-
-
 `);
+  marked.setOptions({
+    breaks: true,
+  });
 
   const input = (e) => {
     setText(e.target.value);
