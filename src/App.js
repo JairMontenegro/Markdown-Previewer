@@ -3,6 +3,7 @@ import "./App.scss";
 import { marked } from "marked";
 import { useState } from "react";
 import Jair from "./img/Jair.svg";
+import Footer from "./footer";
 
 function App() {
   const [text, setText] = useState(`# MARKDOWN PREVIEWER
@@ -43,15 +44,18 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <textarea id="editor" onChange={input} value={text}></textarea>
-      <div
-        id="preview"
-        dangerouslySetInnerHTML={{
-          __html: marked(text),
-        }}
-      ></div>
-    </div>
+    <>
+      <div className="App">
+        <textarea id="editor" onChange={input} value={text}></textarea>
+        <div
+          id="preview"
+          dangerouslySetInnerHTML={{
+            __html: marked(text),
+          }}
+        ></div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
