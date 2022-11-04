@@ -25,6 +25,9 @@ textarea {
     border-radius: 2%;
     margin: 2rem auto 4rem auto;  
     .layout{
+      border-top-left-radius: .9rem;
+      border-top-right-radius: .9rem;
+      background-color: #ccc;
       p{
         width: 100%;
         border-bottom: 1px solid #ccc;
@@ -48,14 +51,73 @@ textarea {
     }
     #preview{
       padding: 1rem;
+      font-family:"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+      h1{
+        margin-bottom: 1rem;
+        font-weight: 600;
+        line-height: 1.25;
+        border-bottom:1px solid #ccc ;
+      }
+      h2{
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+        border-bottom:1px solid #ccc ;
+      }
+      h3{
+          font-size: 1.25em;
+      }
+      p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+      code{
+          background-color: rgba(110,118,129,0.4) ;
+          border-radius: 6px;
+      }
+      a{
+        text-decoration: none;
+        color: #58a6ff;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      ol{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+      }
+      hr{
+        height: .19em;
+        background-color: #2b3137;
+        display: block;
+        unicode-bidi: isolate;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+      }
+      img{
+      box-sizing: content-box;
+      width: 200px;
+      height: 200px;
+      }
+
+
+
+
     }
   }
 }
 
-  img{
-    width: 200px;
-    height: 200px;
-  }
 
 
 

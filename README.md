@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+MARKDOWN PREVIEWER || PREVISUALISADOR DE MARKDOWN (README)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![CAPTURE](/src/markdown-priviewer.png "APP SCREENSHOT")
 
-## Available Scripts
+:us:
 
-In the project directory, you can run:
+[Markdown-previewer](https://github.com/JairMontenegro/Markdown-Previewer "click to enter")
 
-### `npm start`
+This is a project I use to practice REACT JS and the Sass preprocessor. The goal is to practice using react hooks like useState
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this project, I practice how to create a Markdown Previewer using events, props, I also imported the Markdown library from the following link in order to finish the project https://cdnjs.com/libraries/marked
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was done to get front-end library certifications at FreeCodeCamp.
 
-### `npm test`
+- The initial structure was created with the command `npx-create-react-app`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## TO RUN THE APP AND EDIT
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. you need to run `npm-start` command in terminal
+2. the app will automatically open in your default browser and run on localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:round_pushpin: [My Linkedin](https://www.linkedin.com/in/jair-montenegro-2a9499218/ "Jair Montenegro Florez")
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# ESPAÑOL :es:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Previsualizador Markdown](https://github.com/JairMontenegro/Markdown-Previewer "click to enter")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este es un proyecto que utilizo para practicar REACT JS y el preprocesador Sass. El objetivo es practicar el uso de los hooks de react como useState
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+En este proyecto, practico cómo crear un Previsualizador Markdown usando events, props, también importé la biblioteca Markdown del siguiente link para poder finalizar el prouyecto https://cdnjs.com/libraries/marked
 
-## Learn More
+Este proyecto se realizó para obtener certificaciones de bibliotecas front-end en FreeCodeCamp.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- La estructura inicial fue creada con el comando `npx-create-react-app`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## PARA EJECUTAR LA APLICACION Y EDITAR
 
-### Code Splitting
+1. Usted necesitara ejecutar el comando `npm-start` en el terminal
+2. La app automaticamente se abrira en su navegador predeterminado. y se ejecutara en localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+:round_pushpin: [Mi Linkedin](https://www.linkedin.com/in/jair-montenegro-2a9499218/ "Jair Montenegro Florez")
