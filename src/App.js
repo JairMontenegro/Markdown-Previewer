@@ -4,6 +4,8 @@ import { marked } from "marked";
 import { useState } from "react";
 import Jair from "./img/Jair.svg";
 import Footer from "./footer";
+import { BsPencil } from "react-icons/bs";
+import { BiSpreadsheet } from "react-icons/bi";
 
 function App() {
   const [text, setText] = useState(`# MARKDOWN PREVIEWER
@@ -47,12 +49,25 @@ function App() {
     <>
       <div className="App">
         <textarea id="editor" onChange={input} value={text}></textarea>
-        <div
-          id="preview"
-          dangerouslySetInnerHTML={{
-            __html: marked(text),
-          }}
-        ></div>
+        <div className="wrapper">
+          <div className="layout">
+            <p>
+              <span className="note">
+                <BiSpreadsheet size={20} />
+              </span>
+              README.md
+              <span className="pencil">
+                <BsPencil />
+              </span>
+            </p>
+          </div>
+          <div
+            id="preview"
+            dangerouslySetInnerHTML={{
+              __html: marked(text),
+            }}
+          ></div>
+        </div>
       </div>
       <Footer />
     </>
