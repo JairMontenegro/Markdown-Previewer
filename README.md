@@ -6,7 +6,7 @@ MARKDOWN PREVIEWER || PREVISUALIZADOR DE MARKDOWN (README)
 
 :us:
 
-[Markdown-previewer](https://github.com/JairMontenegro/Markdown-Previewer "click to enter")
+[Markdown-previewer](https://jairmontenegro.github.io/Markdown-Previewer/ "click to enter")
 
 This is a project I use to practice REACT JS and the Sass preprocessor. The goal is to practice using react hooks like useState
 
