@@ -1,4 +1,6 @@
-MARKDOWN PREVIEWER || PREVISUALISADOR DE MARKDOWN (README)
+MARKDOWN PREVIEWER || PREVISUALIZADOR DE MARKDOWN (README)
+
+[![Alt text](https://img.youtube.com/vi/BUuLRo-DJhE/0.jpg)](https://www.youtube.com/watch?v=BUuLRo-DJhE)
 
 ![CAPTURE](/src/markdown-priviewer.png "APP SCREENSHOT")
 
